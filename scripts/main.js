@@ -16,7 +16,7 @@ $( document ).ready(function() {
         $( "nav .menuList" ).fadeToggle("slow");
     })
     ScrollOut({
-        targets: "header,footer,#first-section,#contact",
+        targets: "header,footer,#first-section,#contact,.from-left-animation",
         // offset: 400
       });
     });

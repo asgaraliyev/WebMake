@@ -15,6 +15,10 @@ $( document ).ready(function() {
     $( "#menu-list" ).on("click",function(){
         $( "nav .menuList" ).fadeToggle("slow");
     })
+    ScrollOut({
+        targets: "header,footer,#first-section,#contact",
+        // offset: 400
+      });
     });
 
 var app = document.getElementById('typed');
@@ -32,3 +36,4 @@ typewriter.typeString('Web Dizayn')
     .pauseFor(2500)
     .typeString('Bura Baxilmalidi')
     .start();
+  
